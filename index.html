@@ -6,11 +6,25 @@
     <title>Cookie Delights - Home</title>
     <link rel="stylesheet" href="reset.css" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsive.css" />
+    <link rel="stylesheet" href="mobile-elements.css" />
     <link href="https://fonts.googleapis.com/css2?family=Georgia:wght@400;700&display=swap" rel="stylesheet">
   </head>
   <body>
+    <!-- Mobile-only promo banner -->
+    <div class="mobile-promo-banner">
+      🍪 Limited time offer: Buy 2 dozen, get 1 dozen FREE! 🍪
+    </div>
+
     <header>
       <nav class="navigation">
+        <!-- Mobile menu toggle button -->
+        <div class="menu-toggle">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        
         <ul class="navigation-list">
           <li class="logo"><a href="#home">Cookie Delights</a></li>
           <li><a href="#about">About Us</a></li>
@@ -83,6 +97,20 @@
         </div>
       </section>
       
+      <!-- Mobile-only featured cookie section -->
+      <section id="mobile-featured" class="section mobile-only-section">
+        <h2>Today's Featured Cookie</h2>
+        <div class="featured-cookie">
+          <div class="featured-photo"></div>
+          <div class="featured-details">
+            <h3>Double Chocolate</h3>
+            <p class="featured-description">Our most popular cookie! Rich chocolate dough loaded with premium chocolate chunks. Baked fresh daily and perfect with a glass of cold milk.</p>
+            <p class="featured-price">$2.50 each or $24 per dozen</p>
+            <a href="#contact" class="featured-button">Order Featured Cookie</a>
+          </div>
+        </div>
+      </section>
+      
       <section id="testimonials" class="section">
         <h2>Testimonials</h2>
         <div class="testimonial-item">
@@ -122,8 +150,24 @@
       </section>
     </main>
     
+    <!-- Mobile-only floating order button -->
+    <a href="#cookies" class="mobile-order-button">Order</a>
+    
     <footer>
       <p>&copy; 2025 Cookie Delights. All rights reserved.</p>
     </footer>
+    
+    <script>
+      // Mobile menu toggle functionality
+      document.addEventListener('DOMContentLoaded', function() {
+        const menuToggle = document.querySelector('.menu-toggle');
+        const navList = document.querySelector('.navigation-list');
+        
+        menuToggle.addEventListener('click', function() {
+          menuToggle.classList.toggle('active');
+          navList.classList.toggle('active');
+        });
+      });
+    </script>
   </body>
 </html>
