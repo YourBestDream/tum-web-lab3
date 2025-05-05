@@ -37,6 +37,7 @@ Cookie Delights is a beautifully designed landing page for a bakery specializing
 ├── 📄 index.html   # Main HTML file
 ├── 📄 style.css    # Main stylesheet
 ├── 📄 reset.css    # CSS Reset
+├── 📂 photos/ # Folder for project photos
 ├── 📂 screenshots/ # Folder for project screenshots
 └── 📄 README.md    # This file
 ```
