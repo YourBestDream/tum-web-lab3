@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', function() {
     
     const mascotImg = document.createElement('img');
     mascotImg.className = 'cookie-mascot';
-    mascotImg.src = 'photo/mascot.png';
+    mascotImg.src = 'photo/Mascot.png';
     mascotImg.alt = 'Cookie Delights Mascot';
     
     const mascotMessage = document.createElement('div');
