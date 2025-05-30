@@ -21,23 +21,29 @@ Cookie Delights is a beautifully designed landing page for a bakery specializing
 ---
 
 ## **🚀 Live Demo**  
-🔗 [View the live site here](https://yourbestdream.github.io/tum-web-lab2/)  
+🔗 [View the live site here](https://yourbestdream.github.io/tum-web-lab3/)  
 
 ---
 
 ## **🛠️ Technologies Used**  
 - **HTML5** for the page structure  
-- **CSS3** for styling and animations   
+- **CSS3** for styling and animations  
+- **JS** for mascot logic 
 
 ---
 
 ## **📂 Project Structure**  
+
 ```
 📁 CookieDelights/
-├── 📄 index.html   # Main HTML file
-├── 📄 style.css    # Main stylesheet
-├── 📄 reset.css    # CSS Reset
-├── 📂 photos/ # Folder for project photos
-├── 📂 screenshots/ # Folder for project screenshots
-└── 📄 README.md    # This file
+├── 📄 index.html        # Main HTML file
+├── 📄 mascot.css        # Styles for mascot
+├── 📄 mascot.js         # JS for mascot behavior
+├── 📄 mobile_only.css   # Mobile-specific styles
+├── 📄 responsive.css    # Responsive styles
+├── 📄 reset.css         # CSS Reset
+├── 📄 style.css         # Main stylesheet
+├── 📂 photo/            # Folder for project photos
+├── 📂 screenshots/      # Folder for project screenshots
+└── 📄 README.md         # This file
 ```
